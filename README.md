@@ -1,5 +1,5 @@
-# airport-forecasting
-End-to-end project for forecasting passenger flow (arrivals) at Brazilian airports  
+### Description
+End-to-end project for forecasting passenger flow (arrivals) at Brazilian airports, fully automated with monthly updates.  
 <br>  
   
 ### Link for application
@@ -18,9 +18,9 @@ End-to-end project for forecasting passenger flow (arrivals) at Brazilian airpor
 
 > <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/57f70101-6cf1-4916-93d3-724844b1fdab" width="20" height="20"> &nbsp;&nbsp;They are stored in S3 in a landing zone.
 
-> <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/2fae7c96-a38d-4c7b-a046-f84c2dd24e50" width="20" height="20"> &nbsp;&nbsp;Lambda function monitores when new data arrives in landing zone and trigger an ETL job.
+> <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/2fae7c96-a38d-4c7b-a046-f84c2dd24e50" width="20" height="20"> &nbsp;&nbsp;Lambda function monitores when new data arrives in landing zone and triggers an ETL job.
 
-> <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/98d2449a-4461-4865-9007-a596e15ef215" width="20" height="20"> &nbsp;&nbsp;ETL job treat new data and save results as parquet in a bronze zone.
+> <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/98d2449a-4461-4865-9007-a596e15ef215" width="20" height="20"> &nbsp;&nbsp;ETL job treats new data and saves results as parquet in a bronze zone.
 
 > <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/86b66693-b41c-4507-b6dd-2f2389e112b2" width="20" height="20"> &nbsp;&nbsp;CloudWatch rule monitores if the previous ETL job succeeded and triggers a Glue workflow.
 
@@ -40,12 +40,14 @@ End-to-end project for forecasting passenger flow (arrivals) at Brazilian airpor
 > Deployment with _shinyapps.io_  
 <br>
   
-Tools:  
+**Tools:**  
 VS Code, Jupyter Notebook, Python  
-
   
-Libraries:  
+**Libraries:**  
 pandas, numpy, xgboost, matplotlib, plotly, shiny  
+
+**Cloud services:**  
+AWS
 
   
 
