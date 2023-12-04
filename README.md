@@ -1,5 +1,5 @@
 ### Description
-End-to-end project for forecasting passenger flow (arrivals) at Brazilian airports, fully automated with monthly updates.  
+An end-to-end project designed for predicting passenger traffic (arrivals) at Brazilian airports, fully automated and updated monthly.  
 <br>  
   
 ### Link for application
