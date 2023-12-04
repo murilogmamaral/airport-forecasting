@@ -12,7 +12,7 @@ An end-to-end project designed for predicting passenger traffic (arrivals) at Br
 
 ### Data Engineering pipeline (AWS)
 
-> <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/3bfd1d9a-0de2-4ada-a187-a20b2cd15c45" width="20" height="20"> &nbsp;&nbsp;ANAC updates data monthly.  
+> <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/3bfd1d9a-0de2-4ada-a187-a20b2cd15c45" width="20" height="20"> &nbsp;&nbsp;National Civil Aviation Agency updates data monthly.  
 
 > <img src="https://github.com/murilogmamaral/airport-forecasting/assets/80144654/98d2449a-4461-4865-9007-a596e15ef215" width="20" height="20"> &nbsp;&nbsp;ETL job searches for new CSV files available and download them.
 
