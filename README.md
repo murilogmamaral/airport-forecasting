@@ -1,11 +1,7 @@
 ### Description
 An end-to-end project designed for predicting passenger traffic (arrivals) at Brazilian airports, fully automated and updated monthly.  
 <br>  
-  
-### Link for application
-[academia.shinyapp.io/airport-forecasting](http://academia.shinyapps.io/airport-forecasting)  
-<br>  
-  
+
 ### Preview
 ![image](https://github.com/murilogmamaral/airport-forecasting/assets/80144654/66a19f80-742b-4e65-80e5-7a71d57603a9)  
 <br>  
